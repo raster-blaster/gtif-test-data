@@ -1,13 +1,12 @@
 {
   "options": {
-    "execute": false,
-    "multiQuery": "feature"
+    "execute": false
   },
   "type": "object",
   "properties": {
     "feature": {
-      "type": "array",
-      "title": "Draw a box on map to select one or more stations",
+      "type": "string",
+      "title": "Select a station on the map",
       "options": {
         "drawtools": {
           "for": "eox-map#main",
@@ -15,6 +14,12 @@
           "continuous": true,
           "featureNameKey": "station_name",
           "featureStyles": {
+            "hover": {
+              "circle-radius": 8,
+              "circle-fill-color": "rgba(0, 200, 255, 0.65)",
+              "circle-stroke-color": "#ffffff",
+              "circle-stroke-width": 1.5
+            },
             "click": {
               "circle-radius": 9,
               "circle-fill-color": "rgba(255, 166, 0, 0.95)",
@@ -25,10 +30,7 @@
         },
         "featureProperty": "station_code"
       },
-      "items": {
-        "type": "string"
-      },
-      "format": "features"
+      "format": "feature"
     }
   }
 }
