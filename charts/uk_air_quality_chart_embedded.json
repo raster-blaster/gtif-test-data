@@ -1,20 +1,50 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "values": [] },
-  "transform": [
-    { "filter": "datum.properties && datum.properties.station_code == '{{feature}}'" },
-    { "calculate": "datum.properties.timeseries", "as": "series" },
-    { "flatten": ["series"], "as": ["pt"] },
-    { "calculate": "datum.pt.date", "as": "date" },
-    { "calculate": "datum.pt.pm25", "as": "pm25" }
-  ],
-  "mark": { "type": "line", "point": true },
+  "description": "PM2.5 timeseries for selected station(s)",
+  "data": {
+    "values": []
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
   "encoding": {
-    "x": { "field": "date", "type": "temporal", "title": "Date" },
-    "y": { "field": "pm25", "type": "quantitative", "title": "PM2.5 (µg/m³)" },
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": "Date"
+    },
+    "y": {
+      "field": "pm25",
+      "type": "quantitative",
+      "title": "PM2.5 (ug/m3)"
+    },
+    "color": {
+      "field": "station_name",
+      "type": "nominal",
+      "title": "Station"
+    },
     "tooltip": [
-      { "field": "date", "type": "temporal" },
-      { "field": "pm25", "type": "quantitative" }
+      {
+        "field": "station_name",
+        "type": "nominal",
+        "title": "Station"
+      },
+      {
+        "field": "station_code",
+        "type": "nominal",
+        "title": "Code"
+      },
+      {
+        "field": "date",
+        "type": "temporal",
+        "title": "Date"
+      },
+      {
+        "field": "pm25",
+        "type": "quantitative",
+        "title": "PM2.5"
+      }
     ]
   }
 }
