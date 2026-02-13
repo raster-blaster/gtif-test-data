@@ -1,8 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "PM2.5 timeseries for selected station(s)",
+  "description": "PM2.5 timeseries for selected station",
   "data": {
     "values": []
+  },
+  "title": {
+    "text": {
+      "expr": "length(data('source_0')) > 0 ? data('source_0')[0].station_name : 'Station PM2.5 Timeseries'"
+    },
+    "anchor": "start"
   },
   "mark": {
     "type": "line",
@@ -18,11 +24,6 @@
       "field": "pm25",
       "type": "quantitative",
       "title": "PM2.5 (ug/m3)"
-    },
-    "color": {
-      "field": "station_name",
-      "type": "nominal",
-      "title": "Station"
     },
     "tooltip": [
       {
