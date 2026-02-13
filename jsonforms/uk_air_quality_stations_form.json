@@ -1,8 +1,11 @@
 {
   "options": {
-    "execute": false
+    "execute": true
   },
   "type": "object",
+  "required": [
+    "feature"
+  ],
   "properties": {
     "feature": {
       "type": "string",
@@ -10,7 +13,7 @@
       "options": {
         "drawtools": {
           "for": "eox-map#main",
-          "layer-id": "uk_air_quality_stations_click_timeseries",
+          "layer-id": "uk_air_quality_stations_click_timeseries;:;2025-01-01T00:00:00Z;:;0",
           "continuous": true,
           "featureNameKey": "station_name",
           "featureStyles": {
@@ -28,6 +31,7 @@
             }
           }
         },
+        "type": "string",
         "featureProperty": "station_code"
       },
       "format": "feature"
