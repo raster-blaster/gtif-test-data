@@ -1,0 +1,2085 @@
+{
+  "type": "FeatureCollection",
+  "name": "UK_AURN_Air_Quality_Monitoring_Stations",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "title": "UK DEFRA AURN Air Quality Monitoring Stations",
+    "description": "Point locations and metadata for UK Automatic Urban and Rural Network (AURN) air quality monitoring stations. Sourced from DEFRA UK-AIR.",
+    "source_url": "https://uk-air.defra.gov.uk/networks/network-info?view=aurn",
+    "license": "Open Government Licence v3.0",
+    "attribution": "Crown copyright Defra via uk-air.defra.gov.uk",
+    "created": "2026-02-12",
+    "total_stations": 86
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ABD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.094278,
+          57.15736
+        ]
+      },
+      "properties": {
+        "station_code": "ABD",
+        "station_name": "Aberdeen",
+        "site_type": "Urban Background",
+        "region": "North East Scotland",
+        "start_date": "1999-09-18",
+        "pollutants": "O3, NO, NO2, NOx, SO2, CO, PM10, PM2.5",
+        "num_pollutants": 8,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ABD9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.094278,
+          57.15736
+        ]
+      },
+      "properties": {
+        "station_code": "ABD9",
+        "station_name": "Aberdeen Erroll Park",
+        "site_type": "Urban Background",
+        "region": "North East Scotland",
+        "start_date": "2021-01-01",
+        "pollutants": "PM2.5, PM10",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ABD7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.106472,
+          57.14455
+        ]
+      },
+      "properties": {
+        "station_code": "ABD7",
+        "station_name": "Aberdeen Union Street Roadside",
+        "site_type": "Urban Traffic",
+        "region": "North East Scotland",
+        "start_date": "2008-01-01",
+        "pollutants": "NO2, NOx, NO",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ABD8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.094198,
+          57.13389
+        ]
+      },
+      "properties": {
+        "station_code": "ABD8",
+        "station_name": "Aberdeen Wellington Road",
+        "site_type": "Urban Traffic",
+        "region": "North East Scotland",
+        "start_date": "2016-02-09",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ARM6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.654558,
+          54.35373
+        ]
+      },
+      "properties": {
+        "station_code": "ARM6",
+        "station_name": "Armagh Roadside",
+        "site_type": "Urban Traffic",
+        "region": "Northern Ireland",
+        "start_date": "2009-01-01",
+        "pollutants": "NO2, NOx, NO",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.034178,
+          52.50385
+        ]
+      },
+      "properties": {
+        "station_code": "AH",
+        "station_name": "Aston Hill",
+        "site_type": "Rural Background",
+        "region": "West Midlands",
+        "start_date": "1986-04-07",
+        "pollutants": "O3, NO2, SO2",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ACTH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2429,
+          55.79216
+        ]
+      },
+      "properties": {
+        "station_code": "ACTH",
+        "station_name": "Auchencorth Moss",
+        "site_type": "Rural Background",
+        "region": "Central Scotland",
+        "start_date": "2006-05-16",
+        "pollutants": "O3, NO2, PM2.5, PM10",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BAAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26538,
+          54.86039
+        ]
+      },
+      "properties": {
+        "station_code": "BAAR",
+        "station_name": "Ballymena Antrim Road",
+        "site_type": "Urban Traffic",
+        "region": "Northern Ireland",
+        "start_date": "2020-01-01",
+        "pollutants": "NO2, NOx",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BALM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.250873,
+          54.8616
+        ]
+      },
+      "properties": {
+        "station_code": "BALM",
+        "station_name": "Ballymena Ballykeel",
+        "site_type": "Urban Background",
+        "region": "Northern Ireland",
+        "start_date": "2010-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BARN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.510436,
+          53.56292
+        ]
+      },
+      "properties": {
+        "station_code": "BARN",
+        "station_name": "Barnsley Gawber",
+        "site_type": "Urban Background",
+        "region": "Yorkshire & Humberside",
+        "start_date": "1997-07-07",
+        "pollutants": "O3, NO2, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BPLE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.041924,
+          51.07479
+        ]
+      },
+      "properties": {
+        "station_code": "BPLE",
+        "station_name": "Barnstaple A39",
+        "site_type": "Urban Traffic",
+        "region": "South West",
+        "start_date": "2013-11-14",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BATH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.354155,
+          51.39113
+        ]
+      },
+      "properties": {
+        "station_code": "BATH",
+        "station_name": "Bath Roadside",
+        "site_type": "Urban Traffic",
+        "region": "South West",
+        "start_date": "1996-11-18",
+        "pollutants": "NO2, NOx, NO",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BEL2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.928833,
+          54.59965
+        ]
+      },
+      "properties": {
+        "station_code": "BEL2",
+        "station_name": "Belfast Centre",
+        "site_type": "Urban Background",
+        "region": "Northern Ireland",
+        "start_date": "1992-01-05",
+        "pollutants": "NO2, NOx, SO2, PM10, PM2.5, O3",
+        "num_pollutants": 6,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.275026,
+          54.60537
+        ]
+      },
+      "properties": {
+        "station_code": "BIL",
+        "station_name": "Billingham",
+        "site_type": "Urban Industrial",
+        "region": "North East",
+        "start_date": "1987-05-26",
+        "pollutants": "NO2, SO2, O3",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIRR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8823,
+          53.0974
+        ]
+      },
+      "properties": {
+        "station_code": "BIRR",
+        "station_name": "Birr",
+        "site_type": "Rural Background",
+        "region": "Republic of Ireland",
+        "start_date": "2010-01-01",
+        "pollutants": "O3",
+        "num_pollutants": 1,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AGRN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.829472,
+          52.43706
+        ]
+      },
+      "properties": {
+        "station_code": "AGRN",
+        "station_name": "Birmingham Acocks Green",
+        "site_type": "Urban Background",
+        "region": "West Midlands",
+        "start_date": "2004-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIRM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.874809,
+          52.47602
+        ]
+      },
+      "properties": {
+        "station_code": "BIRM",
+        "station_name": "Birmingham A4540 Roadside",
+        "site_type": "Urban Traffic",
+        "region": "West Midlands",
+        "start_date": "1997-10-31",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BIR1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.830861,
+          52.51186
+        ]
+      },
+      "properties": {
+        "station_code": "BIR1",
+        "station_name": "Birmingham Tyburn",
+        "site_type": "Urban Background",
+        "region": "West Midlands",
+        "start_date": "2014-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5, O3",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLC2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.007175,
+          53.80489
+        ]
+      },
+      "properties": {
+        "station_code": "BLC2",
+        "station_name": "Blackpool Marton",
+        "site_type": "Urban Background",
+        "region": "North West",
+        "start_date": "2003-09-12",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BRT3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.147572,
+          50.84046
+        ]
+      },
+      "properties": {
+        "station_code": "BRT3",
+        "station_name": "Brighton Preston Park",
+        "site_type": "Urban Background",
+        "region": "South East",
+        "start_date": "2004-12-16",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BR11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.584482,
+          51.46279
+        ]
+      },
+      "properties": {
+        "station_code": "BR11",
+        "station_name": "Bristol St Paul's",
+        "site_type": "Urban Background",
+        "region": "South West",
+        "start_date": "2006-06-29",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BUSH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.205782,
+          55.86236
+        ]
+      },
+      "properties": {
+        "station_code": "BUSH",
+        "station_name": "Bush Estate",
+        "site_type": "Rural Background",
+        "region": "Central Scotland",
+        "start_date": "1986-04-07",
+        "pollutants": "O3, NO2, SO2",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CA1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.124456,
+          52.20237
+        ]
+      },
+      "properties": {
+        "station_code": "CA1",
+        "station_name": "Cambridge Roadside",
+        "site_type": "Urban Traffic",
+        "region": "East",
+        "start_date": "2008-03-10",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CANT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.098061,
+          51.27899
+        ]
+      },
+      "properties": {
+        "station_code": "CANT",
+        "station_name": "Canterbury",
+        "site_type": "Urban Background",
+        "region": "South East",
+        "start_date": "1997-03-20",
+        "pollutants": "NO2, O3, PM10",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CARD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.17625,
+          51.48178
+        ]
+      },
+      "properties": {
+        "station_code": "CARD",
+        "station_name": "Cardiff Centre",
+        "site_type": "Urban Background",
+        "region": "Wales",
+        "start_date": "1992-02-06",
+        "pollutants": "NO2, NOx, PM10, PM2.5, CO",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CARM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.944533,
+          54.89451
+        ]
+      },
+      "properties": {
+        "station_code": "CARM",
+        "station_name": "Carlisle Roadside",
+        "site_type": "Urban Traffic",
+        "region": "North West",
+        "start_date": "2004-11-10",
+        "pollutants": "NO2, NOx, PM10",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CHS7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.454946,
+          53.23173
+        ]
+      },
+      "properties": {
+        "station_code": "CHS7",
+        "station_name": "Chesterfield Roadside",
+        "site_type": "Urban Traffic",
+        "region": "East Midlands",
+        "start_date": "2008-01-01",
+        "pollutants": "NO2, NOx",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CW",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.438589,
+          51.1496
+        ]
+      },
+      "properties": {
+        "station_code": "CW",
+        "station_name": "Chilbolton Observatory",
+        "site_type": "Rural Background",
+        "region": "South East",
+        "start_date": "2016-01-01",
+        "pollutants": "PM2.5, PM10",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "COAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.38363,
+          52.7279
+        ]
+      },
+      "properties": {
+        "station_code": "COAL",
+        "station_name": "Coalville",
+        "site_type": "Urban Background",
+        "region": "East Midlands",
+        "start_date": "2022-01-01",
+        "pollutants": "PM2.5",
+        "num_pollutants": 1,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "COVN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.560228,
+          52.41129
+        ]
+      },
+      "properties": {
+        "station_code": "COVN",
+        "station_name": "Coventry Allesley",
+        "site_type": "Urban Background",
+        "region": "West Midlands",
+        "start_date": "2016-10-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DERY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.329162,
+          55.00264
+        ]
+      },
+      "properties": {
+        "station_code": "DERY",
+        "station_name": "Derry Rosemount",
+        "site_type": "Urban Background",
+        "region": "Northern Ireland",
+        "start_date": "2004-07-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ED",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.182186,
+          55.94537
+        ]
+      },
+      "properties": {
+        "station_code": "ED",
+        "station_name": "Edinburgh St Leonards",
+        "site_type": "Urban Background",
+        "region": "Central Scotland",
+        "start_date": "2003-01-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ESKD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.206111,
+          55.3153
+        ]
+      },
+      "properties": {
+        "station_code": "ESKD",
+        "station_name": "Eskdalemuir",
+        "site_type": "Rural Background",
+        "region": "Scottish Borders",
+        "start_date": "1986-04-07",
+        "pollutants": "O3, NO2",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GLAZ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.472056,
+          53.46008
+        ]
+      },
+      "properties": {
+        "station_code": "GLAZ",
+        "station_name": "Glazebury",
+        "site_type": "Rural Background",
+        "region": "North West",
+        "start_date": "2002-02-09",
+        "pollutants": "NO2, O3, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GLA4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.24348,
+          55.86578
+        ]
+      },
+      "properties": {
+        "station_code": "GLA4",
+        "station_name": "Glasgow Townhead",
+        "site_type": "Urban Background",
+        "region": "Central Scotland",
+        "start_date": "2003-01-01",
+        "pollutants": "NO2, PM10, PM2.5, O3",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HORE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.169944,
+          51.16518
+        ]
+      },
+      "properties": {
+        "station_code": "HORE",
+        "station_name": "Horley",
+        "site_type": "Suburban Background",
+        "region": "South East",
+        "start_date": "2014-01-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HUL2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.341222,
+          53.74878
+        ]
+      },
+      "properties": {
+        "station_code": "HUL2",
+        "station_name": "Hull Freetown",
+        "site_type": "Urban Background",
+        "region": "Yorkshire & Humberside",
+        "start_date": "2000-04-06",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KC1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.213492,
+          51.52105
+        ]
+      },
+      "properties": {
+        "station_code": "KC1",
+        "station_name": "London N. Kensington",
+        "site_type": "Urban Background",
+        "region": "Greater London",
+        "start_date": "1996-01-01",
+        "pollutants": "NO2, NOx, CO, O3, SO2, PM10, PM2.5",
+        "num_pollutants": 7,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MY1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.154611,
+          51.52254
+        ]
+      },
+      "properties": {
+        "station_code": "MY1",
+        "station_name": "London Marylebone Road",
+        "site_type": "Urban Traffic",
+        "region": "Greater London",
+        "start_date": "1997-01-01",
+        "pollutants": "NO2, NOx, CO, PM10, PM2.5",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.180361,
+          50.7937
+        ]
+      },
+      "properties": {
+        "station_code": "LH",
+        "station_name": "Lullington Heath",
+        "site_type": "Rural Background",
+        "region": "South East",
+        "start_date": "1986-04-07",
+        "pollutants": "O3, NO2, SO2",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MACK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.903586,
+          53.32655
+        ]
+      },
+      "properties": {
+        "station_code": "MACK",
+        "station_name": "Mace Head",
+        "site_type": "Rural Background",
+        "region": "Republic of Ireland",
+        "start_date": "1987-09-01",
+        "pollutants": "O3, CO",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MAN3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.237881,
+          53.48152
+        ]
+      },
+      "properties": {
+        "station_code": "MAN3",
+        "station_name": "Manchester Piccadilly",
+        "site_type": "Urban Background",
+        "region": "Greater Manchester",
+        "start_date": "1996-01-01",
+        "pollutants": "NO2, NOx, O3, PM10, PM2.5",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MAN4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.239218,
+          53.37139
+        ]
+      },
+      "properties": {
+        "station_code": "MAN4",
+        "station_name": "Manchester Sharston",
+        "site_type": "Urban Industrial",
+        "region": "Greater Manchester",
+        "start_date": "2004-12-17",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MOLD",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.148611,
+          53.17037
+        ]
+      },
+      "properties": {
+        "station_code": "MOLD",
+        "station_name": "Mold",
+        "site_type": "Suburban Background",
+        "region": "Wales",
+        "start_date": "2022-03-01",
+        "pollutants": "PM2.5",
+        "num_pollutants": 1,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MKTH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.772689,
+          52.55444
+        ]
+      },
+      "properties": {
+        "station_code": "MKTH",
+        "station_name": "Market Harborough",
+        "site_type": "Rural Background",
+        "region": "East Midlands",
+        "start_date": "2015-12-01",
+        "pollutants": "PM2.5, PM10",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NOTT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.146447,
+          52.95473
+        ]
+      },
+      "properties": {
+        "station_code": "NOTT",
+        "station_name": "Nottingham Centre",
+        "site_type": "Urban Background",
+        "region": "East Midlands",
+        "start_date": "1996-01-02",
+        "pollutants": "NO2, NOx, PM10, PM2.5, CO, O3",
+        "num_pollutants": 6,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OX",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.260278,
+          51.74476
+        ]
+      },
+      "properties": {
+        "station_code": "OX",
+        "station_name": "Oxford St Ebbes",
+        "site_type": "Urban Background",
+        "region": "South East",
+        "start_date": "1996-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5, O3",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PLYM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.142389,
+          50.37167
+        ]
+      },
+      "properties": {
+        "station_code": "PLYM",
+        "station_name": "Plymouth Centre",
+        "site_type": "Urban Background",
+        "region": "South West",
+        "start_date": "2004-06-22",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.770822,
+          51.58395
+        ]
+      },
+      "properties": {
+        "station_code": "PT4",
+        "station_name": "Port Talbot Margam",
+        "site_type": "Urban Industrial",
+        "region": "Wales",
+        "start_date": "1997-02-01",
+        "pollutants": "NO2, PM10, PM2.5, SO2",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "REA1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.944067,
+          51.45309
+        ]
+      },
+      "properties": {
+        "station_code": "REA1",
+        "station_name": "Reading New Town",
+        "site_type": "Urban Background",
+        "region": "South East",
+        "start_date": "2003-03-14",
+        "pollutants": "NO2, PM10, PM2.5, O3",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROCH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.634889,
+          51.45617
+        ]
+      },
+      "properties": {
+        "station_code": "ROCH",
+        "station_name": "Rochester Stoke",
+        "site_type": "Rural Background",
+        "region": "South East",
+        "start_date": "1996-01-01",
+        "pollutants": "NO2, O3, SO2, PM10, PM2.5",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SASH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.300306,
+          52.13244
+        ]
+      },
+      "properties": {
+        "station_code": "SASH",
+        "station_name": "Sandy Roadside",
+        "site_type": "Urban Traffic",
+        "region": "East",
+        "start_date": "2008-05-01",
+        "pollutants": "NO2, NOx",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SHEF",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.478096,
+          53.37831
+        ]
+      },
+      "properties": {
+        "station_code": "SHEF",
+        "station_name": "Sheffield Devonshire Green",
+        "site_type": "Urban Background",
+        "region": "Yorkshire & Humberside",
+        "start_date": "2013-09-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.463889,
+          52.2944
+        ]
+      },
+      "properties": {
+        "station_code": "SIB",
+        "station_name": "Sibton",
+        "site_type": "Rural Background",
+        "region": "East",
+        "start_date": "2001-02-13",
+        "pollutants": "O3, NO2, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SOUT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.395778,
+          50.90814
+        ]
+      },
+      "properties": {
+        "station_code": "SOUT",
+        "station_name": "Southampton Centre",
+        "site_type": "Urban Background",
+        "region": "South East",
+        "start_date": "1994-01-19",
+        "pollutants": "NO2, NOx, PM10, PM2.5, O3",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SK8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.358547,
+          54.51647
+        ]
+      },
+      "properties": {
+        "station_code": "SK8",
+        "station_name": "Stockton-on-Tees Eaglescliffe",
+        "site_type": "Urban Industrial",
+        "region": "North East",
+        "start_date": "2008-01-01",
+        "pollutants": "NO2, PM10, PM2.5, SO2",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "STOK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.175133,
+          53.02827
+        ]
+      },
+      "properties": {
+        "station_code": "STOK",
+        "station_name": "Stoke-on-Trent Centre",
+        "site_type": "Urban Background",
+        "region": "West Midlands",
+        "start_date": "2004-11-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SUND",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.408778,
+          54.87563
+        ]
+      },
+      "properties": {
+        "station_code": "SUND",
+        "station_name": "Sunderland Silksworth",
+        "site_type": "Urban Background",
+        "region": "North East",
+        "start_date": "2004-10-06",
+        "pollutants": "NO2, PM10, PM2.5, O3",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SWAN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.947485,
+          51.63247
+        ]
+      },
+      "properties": {
+        "station_code": "SWAN",
+        "station_name": "Swansea Roadside",
+        "site_type": "Urban Traffic",
+        "region": "Wales",
+        "start_date": "2004-11-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.615358,
+          53.38928
+        ]
+      },
+      "properties": {
+        "station_code": "WAR",
+        "station_name": "Warrington",
+        "site_type": "Urban Industrial",
+        "region": "North West",
+        "start_date": "2007-12-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WEYB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.122017,
+          52.95037
+        ]
+      },
+      "properties": {
+        "station_code": "WEYB",
+        "station_name": "Weybourne",
+        "site_type": "Rural Background",
+        "region": "East",
+        "start_date": "2000-05-22",
+        "pollutants": "O3, NO2",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WFEN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.290917,
+          52.29862
+        ]
+      },
+      "properties": {
+        "station_code": "WFEN",
+        "station_name": "Wicken Fen",
+        "site_type": "Rural Background",
+        "region": "East",
+        "start_date": "2015-11-01",
+        "pollutants": "PM2.5, PM10, NO2",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "YW",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.716528,
+          50.5976
+        ]
+      },
+      "properties": {
+        "station_code": "YW",
+        "station_name": "Yarner Wood",
+        "site_type": "Rural Background",
+        "region": "South West",
+        "start_date": "1987-05-26",
+        "pollutants": "O3, NO2, SO2",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "YK11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.075861,
+          53.95073
+        ]
+      },
+      "properties": {
+        "station_code": "YK11",
+        "station_name": "York Fishergate",
+        "site_type": "Urban Traffic",
+        "region": "Yorkshire & Humberside",
+        "start_date": "2009-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LEAM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.53335,
+          52.28881
+        ]
+      },
+      "properties": {
+        "station_code": "LEAM",
+        "station_name": "Leamington Spa",
+        "site_type": "Urban Background",
+        "region": "West Midlands",
+        "start_date": "2004-01-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LEIC",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.127311,
+          52.61986
+        ]
+      },
+      "properties": {
+        "station_code": "LEIC",
+        "station_name": "Leicester University",
+        "site_type": "Urban Background",
+        "region": "East Midlands",
+        "start_date": "2013-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LED6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.576278,
+          53.81964
+        ]
+      },
+      "properties": {
+        "station_code": "LED6",
+        "station_name": "Leeds Headingley Kerbside",
+        "site_type": "Urban Traffic",
+        "region": "Yorkshire & Humberside",
+        "start_date": "1993-05-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5, CO",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIN3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.537775,
+          53.22734
+        ]
+      },
+      "properties": {
+        "station_code": "LIN3",
+        "station_name": "Lincoln Roadside",
+        "site_type": "Urban Traffic",
+        "region": "East Midlands",
+        "start_date": "2009-01-01",
+        "pollutants": "NO2, NOx",
+        "num_pollutants": 2,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LVP",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.844333,
+          53.34633
+        ]
+      },
+      "properties": {
+        "station_code": "LVP",
+        "station_name": "Liverpool Speke",
+        "site_type": "Urban Background",
+        "region": "North West",
+        "start_date": "2004-06-10",
+        "pollutants": "NO2, PM10, PM2.5, O3",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LOND6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125889,
+          51.52229
+        ]
+      },
+      "properties": {
+        "station_code": "LOND6",
+        "station_name": "London Bloomsbury",
+        "site_type": "Urban Background",
+        "region": "Greater London",
+        "start_date": "1992-01-05",
+        "pollutants": "NO2, NOx, O3, PM10, PM2.5",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LW1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.131931,
+          51.49467
+        ]
+      },
+      "properties": {
+        "station_code": "LW1",
+        "station_name": "London Westminster",
+        "site_type": "Urban Background",
+        "region": "Greater London",
+        "start_date": "2001-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HRL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.441614,
+          51.48879
+        ]
+      },
+      "properties": {
+        "station_code": "HRL",
+        "station_name": "London Harlington",
+        "site_type": "Urban Industrial",
+        "region": "Greater London",
+        "start_date": "2004-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5, O3",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HIL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.460861,
+          51.49633
+        ]
+      },
+      "properties": {
+        "station_code": "HIL",
+        "station_name": "London Hillingdon",
+        "site_type": "Urban Traffic",
+        "region": "Greater London",
+        "start_date": "2004-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HG4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125475,
+          51.58413
+        ]
+      },
+      "properties": {
+        "station_code": "HG4",
+        "station_name": "London Haringey Priory Park South",
+        "site_type": "Urban Background",
+        "region": "Greater London",
+        "start_date": "2016-01-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LB4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.070766,
+          51.45258
+        ]
+      },
+      "properties": {
+        "station_code": "LB4",
+        "station_name": "London Eltham",
+        "site_type": "Suburban Background",
+        "region": "Greater London",
+        "start_date": "1996-01-01",
+        "pollutants": "NO2, NOx, O3, PM10, PM2.5",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TED2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.345606,
+          51.4253
+        ]
+      },
+      "properties": {
+        "station_code": "TED2",
+        "station_name": "London Teddington Bushy Park",
+        "site_type": "Urban Background",
+        "region": "Greater London",
+        "start_date": "2013-01-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NCA3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.610625,
+          54.97825
+        ]
+      },
+      "properties": {
+        "station_code": "NCA3",
+        "station_name": "Newcastle Centre",
+        "site_type": "Urban Background",
+        "region": "North East",
+        "start_date": "2004-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NEWC",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.595476,
+          54.98626
+        ]
+      },
+      "properties": {
+        "station_code": "NEWC",
+        "station_name": "Newcastle Cradlewell Roadside",
+        "site_type": "Urban Traffic",
+        "region": "North East",
+        "start_date": "2011-01-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NOR2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.300228,
+          52.61458
+        ]
+      },
+      "properties": {
+        "station_code": "NOR2",
+        "station_name": "Norwich Lakenfields",
+        "site_type": "Urban Background",
+        "region": "East",
+        "start_date": "2004-06-10",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PEMB",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.321747,
+          51.70832
+        ]
+      },
+      "properties": {
+        "station_code": "PEMB",
+        "station_name": "Pembrey",
+        "site_type": "Suburban Background",
+        "region": "Wales",
+        "start_date": "2022-08-01",
+        "pollutants": "PM2.5",
+        "num_pollutants": 1,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PENH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.730067,
+          51.77617
+        ]
+      },
+      "properties": {
+        "station_code": "PENH",
+        "station_name": "Penallt",
+        "site_type": "Rural Background",
+        "region": "Wales",
+        "start_date": "2022-08-01",
+        "pollutants": "PM2.5",
+        "num_pollutants": 1,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRES",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.680353,
+          53.76559
+        ]
+      },
+      "properties": {
+        "station_code": "PRES",
+        "station_name": "Preston",
+        "site_type": "Urban Background",
+        "region": "North West",
+        "start_date": "2004-11-22",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SALS",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.334139,
+          53.48454
+        ]
+      },
+      "properties": {
+        "station_code": "SALS",
+        "station_name": "Salford Eccles",
+        "site_type": "Urban Industrial",
+        "region": "Greater Manchester",
+        "start_date": "2003-06-23",
+        "pollutants": "NO2, NOx, PM10, PM2.5, O3",
+        "num_pollutants": 5,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SDY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.678408,
+          51.54396
+        ]
+      },
+      "properties": {
+        "station_code": "SDY",
+        "station_name": "Southend-on-Sea",
+        "site_type": "Urban Background",
+        "region": "East",
+        "start_date": "2004-12-01",
+        "pollutants": "NO2, NOx, PM10, PM2.5",
+        "num_pollutants": 4,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRAN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.023283,
+          53.37287
+        ]
+      },
+      "properties": {
+        "station_code": "TRAN",
+        "station_name": "Tranmere",
+        "site_type": "Urban Background",
+        "region": "North West",
+        "start_date": "2007-11-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WREX",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.979722,
+          53.04222
+        ]
+      },
+      "properties": {
+        "station_code": "WREX",
+        "station_name": "Wrexham",
+        "site_type": "Urban Background",
+        "region": "Wales",
+        "start_date": "2007-11-01",
+        "pollutants": "NO2, PM10, PM2.5",
+        "num_pollutants": 3,
+        "network": "AURN",
+        "country": "UK",
+        "data_source": "DEFRA UK-AIR",
+        "license": "Open Government Licence v3.0"
+      }
+    }
+  ]
+}
