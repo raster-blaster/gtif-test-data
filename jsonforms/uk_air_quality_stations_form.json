@@ -1,17 +1,34 @@
 {
+  "options": {
+    "execute": true,
+    "multiQuery": "feature"
+  },
   "type": "object",
   "properties": {
     "feature": {
-      "type": "string",
-      "title": "Click a station",
+      "type": "array",
+      "title": "Click one or more stations on map",
       "options": {
         "drawtools": {
           "for": "eox-map#main",
           "layerId": "overview",
-          "featureNameKey": "station_name"
+          "continuous": true,
+          "featureNameKey": "station_name",
+          "featureStyles": {
+            "click": {
+              "circle-radius": 9,
+              "circle-fill-color": "rgba(255, 166, 0, 0.95)",
+              "circle-stroke-color": "#ffffff",
+              "circle-stroke-width": 2
+            }
+          }
         },
         "featureProperty": "station_code"
-      }
+      },
+      "items": {
+        "type": "string"
+      },
+      "format": "features"
     }
   }
 }
