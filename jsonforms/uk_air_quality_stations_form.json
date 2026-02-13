@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "feature": {
+      "type": "string",
+      "title": "Click a station",
+      "options": {
+        "drawtools": {
+          "for": "eox-map#main",
+          "layerId": "overview",
+          "featureNameKey": "station_name"
+        },
+        "featureProperty": "station_code"
+      }
+    }
+  }
+}
