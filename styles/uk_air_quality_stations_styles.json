@@ -1,0 +1,13 @@
+{
+  "tooltip": [
+    { "id": "station_name", "title": "Station" },
+    { "id": "station_code", "title": "Code" },
+    { "id": "region", "title": "Region" },
+    { "id": "site_type", "title": "Type" },
+    { "id": "pollutants", "title": "Pollutants" }
+  ],
+  "circle-radius": 6,
+  "circle-fill-color": "rgba(0, 140, 255, 0.85)",
+  "circle-stroke-color": "white",
+  "circle-stroke-width": 1
+}
