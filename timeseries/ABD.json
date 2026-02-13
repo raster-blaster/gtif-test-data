@@ -1,0 +1,74 @@
+[
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-03-01",
+    "pm25": 10.0
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-04-01",
+    "pm25": 8.5
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-05-01",
+    "pm25": 7.9
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-06-01",
+    "pm25": 8.1
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-07-01",
+    "pm25": 7.2
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-08-01",
+    "pm25": 7.4
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-09-01",
+    "pm25": 7.5
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-10-01",
+    "pm25": 8.3
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-11-01",
+    "pm25": 8.0
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2025-12-01",
+    "pm25": 7.7
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2026-01-01",
+    "pm25": 14.6
+  },
+  {
+    "station_code": "ABD",
+    "station_name": "Aberdeen",
+    "date": "2026-02-01",
+    "pm25": 9.1
+  }
+]
