@@ -1,17 +1,17 @@
 {
   "options": {
-    "execute": true,
+    "execute": false,
     "multiQuery": "feature"
   },
   "type": "object",
   "properties": {
     "feature": {
       "type": "array",
-      "title": "Click one or more stations on map",
+      "title": "Draw a box on map to select one or more stations",
       "options": {
         "drawtools": {
           "for": "eox-map#main",
-          "layerId": "overview",
+          "layerId": "uk_air_quality_stations_click_timeseries",
           "continuous": true,
           "featureNameKey": "station_name",
           "featureStyles": {
