@@ -10,7 +10,7 @@
       "options": {
         "drawtools": {
           "for": "eox-map#main",
-          "layerId": "uk_air_quality_stations_click_timeseries",
+          "layer-id": "uk_air_quality_stations_click_timeseries",
           "continuous": true,
           "featureNameKey": "station_name",
           "featureStyles": {
